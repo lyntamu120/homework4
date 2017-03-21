@@ -3,6 +3,8 @@ require 'spec_helper'
 
 RSpec.describe MoviesController do
 
+
+
   describe "renders the index template" do
     it "responds successfully with an HTTP 200 status code" do
       get :index
@@ -16,9 +18,11 @@ RSpec.describe MoviesController do
     end
   end
 
+
+
   # describe "GET show" do
   #   it "assigns @movie" do
-  #     visit movie_path(14)
+  #     get :show
   #     expect(response).to have_content("Rating")
   #   end
   # end
